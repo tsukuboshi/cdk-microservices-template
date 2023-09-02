@@ -22,24 +22,30 @@ This repository contains cdk template for microservices architecture.
 1. Clone this repository.
 
 ```shell
-$ cd ~ && git clone https://github.com/tsukuboshi/cdk-microservices-template
+git clone https://github.com/tsukuboshi/cdk-microservices-template
 ```
 
-2. Install npm packages.
+2. Change directory.
 
-```
-$ npm install
-```
-
-3. If this is your first CDK deployment, run this command only once.
-
-```
-$ cdk bootstrap
+```shell
+cd cdk-microservices-template
 ```
 
-4. Deploy CDK Code.
+3. Install npm packages.
 
-
+```shell
+npm install
 ```
-$ cdk deploy
+
+4. If this is your first CDK deployment, run this command only once.
+
+```shell
+cdk bootstrap
+```
+
+5. Deploy CDK Code.
+
+
+```shell
+cdk deploy
 ```

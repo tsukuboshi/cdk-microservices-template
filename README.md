@@ -14,6 +14,7 @@ This repository contains cdk template for microservices architecture.
 
 - [AWS CLI](https://aws.amazon.com/cli) - v2 or later
 - [AWS CDK](https://aws.amazon.com/jp/cdk) - v2 or later
+- [Docker](https://www.docker.com/) - v20 or later
 - [Node.js](https://nodejs.org/ja) - v16 or later
 - [TypeScript](https://www.typescriptlang.org/) - v4 or later
 
@@ -43,7 +44,9 @@ npm install
 cdk bootstrap
 ```
 
-5. Deploy CDK Code.
+5. Launch Docker Client Software.
+
+6. Deploy CDK Code.
 
 
 ```shell

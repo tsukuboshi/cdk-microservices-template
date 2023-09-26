@@ -82,6 +82,7 @@ export class CdkMicroservicesTemplateStack extends Stack {
         taskSubnets: { subnetType: ec2.SubnetType.PUBLIC },
         taskImageOptions: {
           family: `${resourceName}-taskdef`,
+          containerName: `${resourceName}-container`,
           image: ecs.ContainerImage.fromEcrRepository(ecrRepository, "latest"),
           logDriver: new ecs.AwsLogDriver({
             streamPrefix: `container`,
